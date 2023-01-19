@@ -2,19 +2,12 @@
 
 int main()
 {
-    int numbers[5]; // declare an array of 5 integers
-
-    for (int i = 0; i < 5; i++)
-    {
-        printf("Enter a number: ");
-        scanf("%d", &numbers[i]);
-    }
-
-    printf("The numbers in the array are: ");
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d ", numbers[i]);
-    }
-
+    int i;
+    int myArray[5] = {1, 2, 3, 4, 5};
+    printf("The first element of the array is: %d\n", myArray[0]);
+    printf("The second element of the array is: %d\n", myArray[1]);
+    printf("The third element of the array is: %d\n", myArray[2]);
+    printf("The fourth element of the array is: %d\n", myArray[3]);
+    printf("The fifth element of the array is: %d\n", myArray[4]);
     return 0;
 }
